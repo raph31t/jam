@@ -43,7 +43,7 @@ export default function RecipeDetails({recipe}) {
     <div>
       <div className="Banner">
         <Image
-          src={'https://' + featuresImage.fields.file.url}
+          src={'https:' + featuresImage.fields.file.url}
           width={featuresImage.fields.file.details.image.width}
           height={featuresImage.fields.file.details.image.height}
         />
